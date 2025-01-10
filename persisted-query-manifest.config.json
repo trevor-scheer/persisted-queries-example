@@ -1,0 +1,3 @@
+{
+  "documents": ["packages/client/*.{graphql,js}"]
+}

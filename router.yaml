@@ -1,0 +1,12 @@
+sandbox:
+  enabled: true
+homepage:
+  enabled: false
+supergraph:
+  introspection: true
+  listen: 0.0.0.0:4000
+persisted_queries:
+  enabled: true
+  #  safelist:
+  #    enabled: true/false
+  #    log_unknown: true

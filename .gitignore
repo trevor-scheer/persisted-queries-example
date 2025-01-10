@@ -1,0 +1,6 @@
+node_modules
+
+persisted-query-manifest.json
+
+.env
+.pq.env

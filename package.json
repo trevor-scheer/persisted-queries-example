@@ -1,0 +1,16 @@
+{
+  "name": "pq-example",
+  "scripts": {
+    "client": "node packages/client/index.js",
+    "subgraph:publish": "./scripts/publish-subgraph.sh",
+    "pq:generate": "generate-persisted-query-manifest",
+    "pq:publish": "npm run pq:generate && ./scripts/publish-pq.sh"
+  },
+  "devDependencies": {
+    "@apollo/generate-persisted-query-manifest": "^1.2.2",
+    "graphql": "^16.10.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
